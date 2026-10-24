@@ -80,7 +80,7 @@ export default function JobAIDashboard() {
     const savedChats = localStorage.getItem("job_ai_history");
     const savedKey = localStorage.getItem("geminiApiKey");
 
-    if (savedKey && savedKey.startsWith("AIza")) {
+    if (savedKey && savedKey.startsWith("AQ.AB")) {
       setUserApiKey(savedKey);
       setIsKeyValid(true);
     }
