@@ -89,7 +89,9 @@ const projects = [
     description:
       "An online community and communication application inspired by Discord.",
     tech: ["Next.js", "TypeScript", "Real-time Chat"],
-    status: "IN DEVELOPMENT",
+    status: "LIVE",
+    live: "https://my-app-csps.vercel.app/",
+
     accent: "blue",
     icon: "◉",
   },

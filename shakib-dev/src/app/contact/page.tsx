@@ -62,13 +62,18 @@ export default function ContactForm() {
                   <div className="w-9 h-9 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center text-violet-400 shrink-0">
                     <Phone size={18} />
                   </div>
-                  <span className="font-medium">+91 9515245408</span>
+                  <a
+  href="tel:+919534439956"
+  className="font-medium hover:text-violet-400 transition-colors"
+>
+  +91 9534439956
+</a>
                 </div>
                 <div className="flex items-center gap-3.5 text-slate-300 text-sm">
                   <div className="w-9 h-9 rounded-xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center text-violet-400 shrink-0">
                     <Mail size={18} />
                   </div>
-                  <span className="font-medium">ankit@example.com</span>
+                  <span className="font-medium">shakibshakib1234royal@gamil.com</span>
                 </div>
               </div>
             </div>
@@ -88,7 +93,7 @@ export default function ContactForm() {
                   <input 
                     required
                     type="text"
-                    placeholder="Ankit Tiwari"
+                    placeholder=""
                     className="w-full pl-10 pr-4 py-2.5 text-sm bg-white/[0.03] border border-white/10 rounded-xl text-white placeholder-slate-600 focus:border-violet-500 focus:ring-1 focus:ring-violet-500 outline-none transition-all"
                     value={formData.name}
                     onChange={(e) => setFormData({...formData, name: e.target.value})}
@@ -103,7 +108,7 @@ export default function ContactForm() {
                   <input 
                     required
                     type="email"
-                    placeholder="ankit@example.com"
+                    placeholder=""
                     className="w-full pl-10 pr-4 py-2.5 text-sm bg-white/[0.03] border border-white/10 rounded-xl text-white placeholder-slate-600 focus:border-violet-500 focus:ring-1 focus:ring-violet-500 outline-none transition-all"
                     value={formData.email}
                     onChange={(e) => setFormData({...formData, email: e.target.value})}
@@ -119,7 +124,7 @@ export default function ContactForm() {
                   <Phone className="absolute left-3.5 top-3 text-slate-500" size={16} />
                   <input 
                     type="tel"
-                    placeholder="+91 98765 43210"
+                    placeholder=""
                     className="w-full pl-10 pr-4 py-2.5 text-sm bg-white/[0.03] border border-white/10 rounded-xl text-white placeholder-slate-600 focus:border-violet-500 focus:ring-1 focus:ring-violet-500 outline-none transition-all"
                     value={formData.phone}
                     onChange={(e) => setFormData({...formData, phone: e.target.value})}
