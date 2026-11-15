@@ -139,6 +139,19 @@ const projects = [
     accent: "cyan",
     icon: "⌁",
   },
+
+  {
+    number: "13",
+    name: "Get A CHAI",
+    category: "AI / FULL STACK",
+    description:
+      "A PAYMENT PRODUCT",
+    tech: ["Next.js", "Express.js", "FastAPI", "MongoDB"],
+    status: "LIVE",
+    live: "https://get-me-a-chai-oyak.vercel.app",
+    accent: "violet",
+    icon: "✳",
+  },
 ];
 
 
