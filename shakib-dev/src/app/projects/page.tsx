@@ -152,6 +152,19 @@ const projects = [
     accent: "violet",
     icon: "✳",
   },
+
+  {
+    number: "14",
+    name: "Mental_Health_Model",
+    category: "AI / FULL STACK",
+    description:
+      "Advice for you",
+    tech: ["Next.js", "Express.js", "FastAPI", "MongoDB"],
+    status: "LIVE",
+    live: "https://my-app-dz94.vercel.app/",
+    accent: "violet",
+    icon: "✳",
+  },
 ];
 
 
